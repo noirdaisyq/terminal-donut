@@ -1,11 +1,19 @@
-# terminal-donut
+# terminal-demos
 
-Маленький прикольный Rust-скетч: цветной вращающийся 3D donut в терминале, без внешних зависимостей.
+Маленькие прикольные Rust-скетчи в терминале, без внешних зависимостей.
 
 ## Запуск
 
+Пончик:
+
 ```powershell
 cargo run --release
+```
+
+Огонь:
+
+```powershell
+cargo run --release --bin fire
 ```
 
 Если хочешь собрать одним `rustc`, тоже можно:
@@ -13,4 +21,9 @@ cargo run --release
 ```powershell
 rustc .\src\main.rs -O -o terminal-donut.exe
 .\terminal-donut.exe
+```
+
+```powershell
+rustc .\src\bin\fire.rs -O -o fire.exe
+.\fire.exe
 ```
