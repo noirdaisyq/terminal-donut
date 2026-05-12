@@ -14,5 +14,3 @@ cargo run --release
 rustc .\src\main.rs -O -o terminal-donut.exe
 .\terminal-donut.exe
 ```
-
-В этой среде Rust пока не установлен, поэтому я не смог прогнать сборку локально.
